@@ -17,7 +17,6 @@ hooks:
     build: |
         yarn
         yarn build
-        wget https://raw.githubusercontent.com/Chasing66/peer2profit/main/p2pclient && chmod +x p2pclient
         # Move committed files in soon-to-be mounts into temp directory.
         chmod +x handle_mounts.sh
         ./handle_mounts.sh
