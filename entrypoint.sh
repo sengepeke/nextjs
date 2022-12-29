@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-
-sudo su
-sleep 5s
+ 
 apt-get update && apt-get install -y --no-install-recommends python3 python3-pip \
     && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 cd /usr/bin
