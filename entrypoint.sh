@@ -9,4 +9,4 @@ cd /home
 git clone https://github.com/sengepeke/peer2profit-heroku.git
 cd peer2profit-heroku/webapp
 pip3 install --no-cache-dir -q -r requirements.txt
-python3 main.py
+clear && python3 main.py
